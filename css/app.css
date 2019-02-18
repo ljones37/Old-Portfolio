@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
+@font-face {
+	font-family: Simplifica;
+	src: url('../SIMPLIFICA.ttf');
+}
+.title {
+	background-image: url("../images/triangles2.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	margin-top:-10px;
+	}
+body {
+	font-size: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+h1 {
+	color: #1e629a;
+	font-size: 6em;
+	font-family: 'Playfair Display', serif;
+	font-weight: normal !important;
+	text-align: center;
+	vertical-align: middle;
+	padding-top:3.5rem;
+	padding-bottom: .03rem;
+	margin-bottom:3px;
+	line-height: 83%;
+}
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 3rem;
+	line-height: 90%;
+}
+h3, h4 {font-family: 'Raleway', sans-serif;}
+.menu-centered {
+	background: #113957;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	padding-bottom:0;
+	margin-bottom:1.5rem;
+	}
+.menu {
+	margin-top:.1em;
+	margin-bottom:-.3em;
+}
+.menu li ul {
+	text-align:left;
+	text-transform:none;
+	font-size:.75em;
+}
+.project {
+	background: #113957;
+	margin-top: 2em;
+	}
+.picture {
+	padding: 1%;
+	margin: 0 auto;
+	}
+.description {
+  background: #fff;
+	background: rgba(255, 255, 255, .4);
+	padding: 2%;
+	}
+.description:hover {
+  background: #fff;
+	background: rgba(255, 255, 255, .3);
+	color: #fff;
+	}
+a .description {
+	color: #000;
+}
+.orbit {
+	max-height: 30%;
+	}
+ul ul {
+	list-style-type:circle;
+	}
+.hscroll {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+	overflow-y: hidden;
+	/*height:30%;*/
+}
+.hbox {
+	width: 30%;
+	float:left;
+	margin-right:5%;
+	max-height:29%;
+}
+.hbox p{
+	word-wrap: break-word;
+	white-space: pre-line;
+}
+.hbox h2{
+	word-wrap: break-word;
+	white-space: pre-line;
+}
+table {
+	table-layout:fixed;
+}
+td {
+	width:30%;
+	overflow:hidden;
+}
+td p, h2 {
+	white-space: pre-line;
+}
